@@ -44,7 +44,7 @@ Classification: Logistic Regression + Random Forest
 | Model               | ROC-AUC | Accuracy | F1 (CD) | F1 (Control) |
 |---------------------|---------|----------|---------|--------------|
 | Logistic Regression | **0.81**| 73%      | 0.84    | 0.27         |
-| Random Forest       | —       | 74%      | 0.84    | 0.35         |
+| Random Forest       | 0.72    | 74%      | 0.84    | 0.35         |
 
 Both models were trained on 1,294 samples and evaluated on 324 held-out samples. The dataset is imbalanced (71.5% CD, 28.5% control), which limits recall on the minority class — addressed in `notebooks/07_modeling.ipynb`.
 
