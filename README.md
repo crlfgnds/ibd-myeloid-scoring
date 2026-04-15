@@ -53,6 +53,12 @@ Both models were trained on 1,294 samples and evaluated on 324 held-out samples.
 
 ---
 
+## Limitations
+
+Myeloid cell-type signatures were derived by identifying marker genes within the CD group of the scRNA-seq dataset. While these signatures capture meaningful cell-type identity, they may also reflect CD-specific transcriptional activation states, potentially inflating scores in CD bulk samples independent of true compositional differences. A more condition-neutral approach would derive signatures from the full dataset or a healthy reference, isolating stable cell-type identity from disease-specific gene regulation. This represents a planned extension of the current analysis.
+
+---
+
 ## Dataset
 
 **GSE193677** — bulk ileal RNA-seq from IBD patient biopsies (GEO, public).  
